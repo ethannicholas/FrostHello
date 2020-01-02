@@ -1,0 +1,12 @@
+This is just a Hello World program in Frost, to serve as a demonstration of how to use CMake to
+build a Frost project.
+
+To build this project, first ensure that you have the directory containing frostc in your PATH, and
+then (starting from the project root) run:
+
+   mkdir build
+   cd build
+   cmake ..
+   make
+
+This should create a program named "hello" in the build directory.
